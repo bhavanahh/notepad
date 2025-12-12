@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<title>Strike Notepad</title>
+<style>
+body {
+width: 250px;
+padding: 15px;
+font-family: Arial, sans-serif;
+background: #fafafa;
+}
+h2 {
+font-size: 18px;
+margin-bottom: 10px;
+}
+#noteInput {
+width: 100%;
+padding: 8px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+button {
+margin-top: 10px;
+width: 100%;
+padding: 8px;
+background: black;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+ul {
+margin-top: 15px;
+padding-left: 15px;
+}
+li {
+cursor: pointer;
+padding: 4px 0;
+}
+.done {
+text-decoration: line-through;
+color: gray;
+}
+</style>
+</head>
+<body>
+<h2>Strike Notepad</h2>
+<input id="noteInput" type="text" placeholder="Write something..." />
+<button id="addBtn">Add</button>
+<ul id="notesList"></ul>
+<script src="popup.js"></script>
+</body>
+</html>
