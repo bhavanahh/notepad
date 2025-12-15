@@ -2,17 +2,17 @@
 
 A simple and lightweight **Chrome extension notepad** that lets you quickly write notes and **strike them off** once completed — perfect for micro-tasks and quick reminders.
 
-## ✨ Features
+## Features
 
-- ➕ Add notes instantly  
-- ✔️ Click to **strike / unstrike** completed notes  
-- 💾 Notes are saved using `chrome.storage.sync`  
-- 🔄 Data persists even after closing Chrome  
-- 🎯 Minimal, distraction-free UI  
+-  Add notes instantly  
+-  Click to **strike / unstrike** completed notes  
+-  Notes are saved using `chrome.storage.sync`  
+-  Data persists even after closing Chrome  
+-  Minimal, distraction-free UI  
 
 
 
-## 🧠 Why this project?
+##  Why this project?
 
 This is a **mini Chrome extension project** built to:
 - Learn how Chrome extensions work  
